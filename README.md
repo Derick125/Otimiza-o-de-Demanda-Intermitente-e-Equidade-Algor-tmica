@@ -1,12 +1,12 @@
 Sistema de Alocação de IGHT 2025: Otimização de Demanda e Equidade Algorítmica
 Este repositório contém o código-fonte, as análises e os artefatos desenvolvidos para o Trabalho Final da disciplina de Machine Learning do Centro Universitário Católica de Quixadá (Unicatólica).
-📌 Sobre o Projeto
+  Sobre o Projeto
 O projeto aborda o desafio logístico de distribuir Imunoglobulina Humana Antitetânica (IGHT), um insumo de alto custo e demanda intermitente, na rede pública de saúde (SUS). Diferente de vacinas comuns, a demanda por IGHT é estocástica (causada por acidentes).
 Para resolver isso, desenvolvemos uma arquitetura híbrida que combina:
 Método de Croston: Para previsão estatística de séries temporais com muitos zeros (demanda intermitente).
 K-Means Clustering: Algoritmo de aprendizado não supervisionado para segmentar municípios em grupos logísticos (Críticos, Metropolitanos, Cauda Longa).
 Índice de Vulnerabilidade e Risco (IVR): Um mecanismo de equidade algorítmica que utiliza pesos demográficos (Raça/Cor) para priorizar estoques em regiões com populações historicamente vulneráveis.
-📂 Arquivos do Repositório
+  Arquivos do Repositório
 ModeloFInal.ipynb: O core do projeto. Um Jupyter Notebook contendo todo o pipeline de dados:
 ETL: Leitura otimizada de grandes volumes de dados do DataSUS usando chunking.
 Modelagem: Implementação manual e vetorial do Método de Croston e aplicação do K-Means via scikit-learn.
@@ -23,7 +23,7 @@ Francisco Nogueira de Lima Junior 2023010460
 Felipe Mesquita Pinto 2023010541
 
 
-🛠️ Tecnologias Utilizadas
+Tecnologias Utilizadas
 Python 3.x
 Pandas (Manipulação de Big Data)
 Scikit-learn (K-Means e Pré-processamento)
